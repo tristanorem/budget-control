@@ -13,10 +13,7 @@ function App() {
       <header>
           <h1>Gasto semanal</h1>
           <div className='contenido-principal contenido'>
-
-            //carga condicional de un componente(si se comple la 1 condicion se ejecuta el primer componente si no el 2)
-            
-            {mostrarpregunta ? 
+            {mostrarpregunta ? // carga condicional de un componente(si se comple la 1 condicion se ejecuta el primer componente si no el 2)
               (<Pregunta
                   guardarPrsupuesto={guardarPrsupuesto}
                   guardarRestante={guardarRestante}
